@@ -1,0 +1,30 @@
+.authors-avatarImage{
+    width: 100px;
+}
+
+.authors-username{
+    font-size: 30px;
+}
+
+.author-info-box{
+    border-bottom: 2px solid white;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.gallery-author-page-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.add-image-button{
+    position: absolute;
+    right: 0;
+    border: 1px solid white;
+    border-radius: 35px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
