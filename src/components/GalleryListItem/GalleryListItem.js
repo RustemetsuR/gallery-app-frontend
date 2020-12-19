@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { NavLink } from 'react-router-dom';
 import { apiURL } from '../../constants';
 import { fetchDeleteImage } from '../../store/actions/galleryActions';
-import Modal from '../Modal/Modal';
+import Modal from '../UI/Modal/Modal';
 import './GalleryListItem.css';
 
 const GalleryListItem = props => {
