@@ -1,8 +1,8 @@
 import { Route, Switch } from 'react-router-dom';
 import './App.css';
-import Container from './components/Container/Container';
-import Layout from './components/Layout/Layout';
-import RedirectToHome from './components/RedirectToHome/RedirectToHome';
+import Container from './components/UI/Container/Container';
+import Layout from './components/UI/Layout/Layout';
+import RedirectToHome from './components/UI/RedirectToHome/RedirectToHome';
 import AddImage from './containers/Gallery/AddImage/AddImage';
 import AuthorsGallery from './containers/Gallery/AuthorsGallery/AuthorsGallery';
 import Home from './containers/Gallery/Home/Home';
